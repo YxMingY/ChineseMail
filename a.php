@@ -22,3 +22,9 @@ echo $aa.PHP_EOL;
 $aa = 2;
 echo $aa.PHP_EOL;
 $a->print();
+function f_echo($context)
+{
+  echo $context;
+}
+$a = "f_echo";
+    $a("bb");
